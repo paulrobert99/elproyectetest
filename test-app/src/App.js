@@ -9,6 +9,7 @@ import Contact from './pages/contact';
 import SignUp from './pages/signup';
 import SignIn from './pages/signin';
 import SearchBar from './components/Search';
+import Table from './components/Table';
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Router>
             <Navbar />
             <Switch>
-                <Route path="/" exact component={Home, SearchBar} />
+                <Route path="/" exact component={Home, SearchBar, Table} />
                 <Route path="/about" component={About} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/signin" component={SignIn} />

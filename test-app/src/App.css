@@ -11,11 +11,11 @@
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  height: 2px;
+  height: 5px;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   white-space: nowrap;
-  width: 2px;
+  width: 5px;
 }
 
 
