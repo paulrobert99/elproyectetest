@@ -15,7 +15,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLogo to="/">
-                    Logo
+                    KitchenKings'
                 </NavLogo>
                 <Bars />
 
