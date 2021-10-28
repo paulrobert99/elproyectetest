@@ -14,6 +14,7 @@ function SearchBar() {
             name="s" 
         />
         <button type="submit">Search</button>
+        <button type="submit">Advanced Search</button>
     </form>
 );
 }

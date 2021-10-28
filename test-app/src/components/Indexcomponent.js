@@ -6,7 +6,8 @@ import Navbar from "./Navbar/Navbar";
 function Indexcontent(){
     return(
         <div>
-        <SearchBar/>
+            <br></br>
+        <SearchBar/><br></br>
         <Tab/>
 
         </div>

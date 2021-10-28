@@ -9,8 +9,10 @@
 }
 
 #header-search{
-  height: auto;
+  height: 50px;
   width: 500px;
+  align-items: center;
+  display: flex;
 }
 
 
@@ -22,6 +24,8 @@
   position: relative;
   white-space: nowrap;
   width: 1px;
+  align-items: center;
+  display: flex;
 }
 
 
