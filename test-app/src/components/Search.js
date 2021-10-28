@@ -3,7 +3,7 @@ import React from 'react';
 
 function SearchBar() {
     return(
-    <form action="/" method="get">
+    <form action="/" id='searh-bar'method="get">
         <label htmlFor="header-search">
             <span className="visually-hidden">Search restaurants</span>
         </label>
@@ -13,8 +13,8 @@ function SearchBar() {
             placeholder="Search restaurants"
             name="s" 
         />
-        <button type="submit">Search</button>
-        <button type="submit">Advanced Search</button>
+        <button type="submit" id='btn'>Search</button>
+        <button type="submit" id='btn'>Advanced Search</button>
     </form>
 );
 }
