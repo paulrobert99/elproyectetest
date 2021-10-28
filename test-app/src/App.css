@@ -47,7 +47,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/*Alább a search gombok CSS tagjei*/
 .container {
     height: 50px;
     position: relative;
@@ -61,5 +61,3 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
-

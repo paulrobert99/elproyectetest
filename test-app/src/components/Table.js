@@ -8,28 +8,29 @@ function Tab(){
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
+                        <th>Restaurant Name</th>
+                        <th>Location</th>
+                        <th>Overall Rating</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>Desszertem</td>
+                        <td>Miskolc</td>
+                        <td>4.2</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>Babel Budapest Restaurant</td>
+                        <td>Budapest</td>
+                        <td>4.6</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td colSpan="2">Larry the Bird</td>
-                        <td>@twitter</td>
+                        <td>Tisza Terasz</td>
+                        <td>Tokaj</td>
+                        <td>4.0</td>
                     </tr>
                 </tbody>
             </Table>
