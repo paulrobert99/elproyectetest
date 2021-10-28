@@ -13,8 +13,13 @@ function SearchBar() {
             placeholder="Search restaurants"
             name="s" 
         />
-        <button type="submit" id='btn'>Search</button>
-        <button type="submit" id='btn'>Advanced Search</button>
+        <div class="container">
+            <div class="center">
+                <button type="submit" id='btn'>Search</button>
+                <button type="submit" id='btn'>Advanced Search</button>
+            </div>
+        </div>
+
     </form>
 );
 }
