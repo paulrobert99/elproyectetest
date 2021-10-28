@@ -1,45 +1,37 @@
-import React, { Component } from 'react';  
-import ReactTable from "react-table";  
-import "react-table/react-table.css";  
+import React from 'react';
+import Table from 'react-bootstrap/Table';
   
-class table extends Component {  
-  render() {  
-     const data = [{  
-        name: 'Ayaan',  
-        age: 26  
-        },{  
-         name: 'Ahana',  
-         age: 22  
-         },{  
-         name: 'Peter',  
-         age: 40      
-         },{  
-         name: 'Virat',  
-         age: 30  
-         },{  
-         name: 'Rohit',  
-         age: 32  
-         },{  
-         name: 'Dhoni',  
-         age: 37  
-         }]  
-     const columns = [{  
-       Header: 'Name',  
-       accessor: 'name'  
-       },{  
-       Header: 'Age',  
-       accessor: 'age'  
-       }]  
-    return (  
+const Tab = () => (
           <div>  
-              <ReactTable  
-                  data={data}  
-                  columns={columns}  
-                  defaultPageSize = {2}  
-                  pageSizeOptions = {[2,4, 6]}  
-              />  
+            <Table striped bordered hover>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td colSpan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </Table>
           </div>        
-    )  
-  }  
-}  
-export default Table;  
+    )    
+export default Tab;  
