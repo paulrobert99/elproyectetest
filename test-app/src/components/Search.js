@@ -1,4 +1,8 @@
-const SearchBar = () => (
+import React from 'react';
+
+
+function SearchBar() {
+    return(
     <form action="/" method="get">
         <label htmlFor="header-search">
             <span className="visually-hidden">Search restaurants</span>
@@ -12,5 +16,6 @@ const SearchBar = () => (
         <button type="submit">Search</button>
     </form>
 );
+}
 
 export default SearchBar;

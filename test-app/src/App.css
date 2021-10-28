@@ -8,14 +8,20 @@
   align-items: center;
 }
 
+#header-search{
+  height: auto;
+  width: 500px;
+}
+
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  height: 5px;
+  height: 1px;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
-  width: 5px;
+  width: 1px;
 }
 
 

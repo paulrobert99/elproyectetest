@@ -1,9 +1,10 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
   
-const Tab = () => (
-          <div>  
-            <Table striped bordered hover>
+function Tab(){
+    return(
+          
+            <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -32,6 +33,8 @@ const Tab = () => (
                     </tr>
                 </tbody>
             </Table>
-          </div>        
-    )    
+               
+    )
+    }
+
 export default Tab;  
